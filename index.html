@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema-29.02.23</title>
+    <!--Link bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!--Link css-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Link icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Section Services-->
+    <section id="services">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center text-dark">
+            <h1>Our Services</h1>
+            <p>
+              High-quality web services are those that are designed, developed,
+              and delivered with a focus on meeting the needs and expectations
+              of the user.
+            </p>
+          </div>
+        </div>
+        <div class="row gy-5 my-5 text-center">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="Img/coffee1.jpg"
+                class="card-img-top"
+                alt="coffee time"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Good morning!</h5>
+                <p class="card-text">
+                  Start your day with a good and nice coffee!
+                </p>
+                <a href="#" class="btn mx-auto btn-dark">More info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="Img/prepare1.jpg"
+                class="card-img-top"
+                alt="prepare for pc work"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Prepare yourself!</h5>
+                <p class="card-text">
+                  It is nice to work in a beautiful workspace.
+                </p>
+                <a href="#" class="btn btn-dark">More info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="Img/codding1.jpg"
+                class="card-img-top"
+                alt="cofee time"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Codding!</h5>
+                <p class="card-text">
+                  Dream big! It is your dream, work on it.
+                </p>
+                <a href="#" class="btn btn-dark">More info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="Img/app.jpg" class="card-img-top" alt="cofee time" />
+              <div class="card-body">
+                <h5 class="card-title">App ready!</h5>
+                <p class="card-text">WDeliver your app as soon as possible!</p>
+                <a href="#" class="btn btn-dark">More info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Services-->
+
+    <!--TEAM-->
+    <section id="team">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h1>Meet Our Crew Members</h1>
+            <p>
+              Having a good team is critical for the success and sustainability
+              of any business. It is important to invest in building a strong
+              team, nurturing a positive team culture, and providing
+              opportunities for professional development and growth.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center g-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+              <img
+                src="https://randomuser.me/api/portraits/men/15.jpg"
+                alt=""
+              />
+              <h5 class="mb-0 mt-4">John Smith</h5>
+              <p>Web Developer</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+              <img
+                src="https://randomuser.me/api/portraits/women/11.jpg"
+                alt=""
+              />
+              <h5 class="mb-0 mt-4">Darcy Smith</h5>
+              <p>Human Resources</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+              <img
+                src="https://randomuser.me/api/portraits/women/21.jpg"
+                alt=""
+              />
+              <h5 class="mb-0 mt-4">Daniela Popescu</h5>
+              <p>Monitoring</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+              <img
+                src="https://randomuser.me/api/portraits/women/97.jpg"
+                alt=""
+              />
+              <h5 class="mb-0 mt-4">Ioana Pop</h5>
+              <p>Support</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END TEAM-->
+
+    <!--Footer-->
+    <section>
+      <footer class="container p-4 rounded">
+        <div class="d-lg-flex justify-content-between">
+          <div>
+            <span>Nima Expert Invest</span>
+          </div>
+          <div class="copyright">
+            <p>
+              developed and maintained by <a href="#" target="_blank">Nico</a>
+            </p>
+          </div>
+          <div>
+            <ul class="d-flex gap-3 list-unstyled">
+              <li>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!--End Footer-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
